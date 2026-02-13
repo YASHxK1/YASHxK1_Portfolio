@@ -1,0 +1,766 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yash Karle — Data Analyst Portfolio</title>
+    <meta name="description"
+        content="Data Analyst portfolio of Yash Karle — turning raw data into revenue-driving insights with Python, SQL, and machine learning." />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon"
+        href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📊</text></svg>" />
+</head>
+
+<body>
+
+    <!-- ═══════════ NAV ═══════════ -->
+    <div class="nav-overlay"></div>
+    <nav class="navbar">
+        <div class="nav-inner">
+            <a href="#" class="nav-logo">YK.</a>
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <button class="hamburger" aria-label="Menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- ═══════════ HERO ═══════════ -->
+    <section class="hero" id="hero">
+        <div class="hero-bg"></div>
+        <div class="container hero-content">
+            <div class="hero-badge"><span class="dot"></span> Open to Opportunities</div>
+            <h1>Hi, I'm <span class="gradient">Yash Karle</span></h1>
+            <p class="tagline">Data Analyst &nbsp;·&nbsp; Business Intelligence &nbsp;·&nbsp; SQL &amp; Python<br />
+                I transform complex datasets into clear, actionable insights that drive revenue growth, reduce
+                operational costs, and accelerate strategic decision-making.</p>
+
+            <div class="hero-cta">
+                <a href="#projects" class="btn btn-primary">
+                    <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                        <path d="M3 3h7v7H3zM14 3h7v7h-7zM3 14h7v7H3zM14 14h7v7h-7z" />
+                    </svg>
+                    View Projects
+                </a>
+                <a href="resume.pdf" download class="btn btn-secondary">
+                    <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                        <path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4M7 10l5 5 5-5M12 15V3" />
+                    </svg>
+                    Download Resume
+                </a>
+                <a href="#contact" class="btn btn-secondary">
+                    <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                        <path d="M4 4h16v16H4zM22 6l-10 7L2 6" />
+                    </svg>
+                    Contact
+                </a>
+            </div>
+
+            <div class="tool-badges">
+                <span class="tool-badge">Python</span>
+                <span class="tool-badge">SQL</span>
+                <span class="tool-badge">Power BI</span>
+                <span class="tool-badge">Pandas</span>
+                <span class="tool-badge">Scikit-learn</span>
+                <span class="tool-badge">XGBoost</span>
+                <span class="tool-badge">TensorFlow</span>
+                <span class="tool-badge">Flask</span>
+                <span class="tool-badge">Matplotlib</span>
+                <span class="tool-badge">Seaborn</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════ ABOUT ═══════════ -->
+    <section id="about">
+        <div class="container">
+            <div class="section-label reveal">About Me</div>
+            <h2 class="section-title reveal">Data-Driven Problem Solver</h2>
+
+            <div class="about-grid">
+                <div class="about-text reveal">
+                    <p>I approach every dataset with one question: <strong>what decision does this need to
+                            inform?</strong> My work centres on translating raw numbers into business narratives that
+                        stakeholders can act on — whether that means identifying a $1.4M churn-risk segment, optimising
+                        insurance pricing models, or building automated KPI dashboards that replace hours of manual
+                        reporting.</p>
+                    <p>I combine <strong>statistical rigour</strong> with strong <strong>stakeholder
+                            communication</strong> — writing SQL that answers real business questions, building
+                        predictive models that quantify risk, and designing visualisations that make complex findings
+                        immediately accessible to non-technical audiences.</p>
+                    <p>My toolkit spans the full analytics pipeline: from data wrangling and feature engineering in
+                        Python, through machine-learning modelling with XGBoost and Scikit-learn, to interactive
+                        dashboarding in Power BI and Flask.</p>
+                </div>
+
+                <div class="about-highlights reveal">
+                    <div class="highlight-card">
+                        <div class="icon">🎯</div>
+                        <h4>Structured Problem-Solving</h4>
+                        <p>Every analysis follows a clear framework — business question → data audit → methodology →
+                            insight → recommendation.</p>
+                    </div>
+                    <div class="highlight-card">
+                        <div class="icon">📊</div>
+                        <h4>Business Translation</h4>
+                        <p>Converting model outputs into dollar-value impact metrics that resonate with leadership and
+                            inform strategy.</p>
+                    </div>
+                    <div class="highlight-card">
+                        <div class="icon">⚙️</div>
+                        <h4>Automation &amp; Pipelines</h4>
+                        <p>Building ELT pipelines, automated dashboards, and reproducible analysis workflows that scale
+                            beyond one-off reports.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cert-list reveal">
+                <h3>Certifications &amp; Achievements</h3>
+                <div class="cert-item"><span class="year">2025</span><span>Data Analysis with Python — IBM (Model
+                        Development &amp; Evaluation)</span></div>
+                <div class="cert-item"><span class="year">2024</span><span>Supervised Machine Learning: Regression &amp;
+                        Classification — DeepLearning.AI (Stanford)</span></div>
+                <div class="cert-item"><span class="year">2024</span><span>Python Data Mastery: Fundamentals to Machine
+                        Learning — LPU</span></div>
+                <div class="cert-item"><span class="year">2023</span><span>Metvy Data Analytics Program (Live
+                        Cohort)</span></div>
+                <div class="cert-item"><span class="year">🏆</span><span>Finalist (Top 5) — College Hackathon for
+                        AI-based mental health assistant</span></div>
+                <div class="cert-item"><span class="year">📄</span><span>Research Paper — CNN-based Deepfake Image
+                        Detection, leveraging preprocessing pipelines and model evaluation</span></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════ PROJECTS ═══════════ -->
+    <section id="projects">
+        <div class="container">
+            <div class="projects-header">
+                <div class="section-label reveal">Portfolio</div>
+                <h2 class="section-title reveal">Featured Projects</h2>
+                <p class="section-subtitle reveal">Each project follows a structured case-study format — from business
+                    problem through methodology to measurable impact.</p>
+            </div>
+
+            <!-- Filters -->
+            <div class="project-filters reveal">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="ml">Machine Learning</button>
+                <button class="filter-btn" data-filter="analytics">Analytics &amp; BI</button>
+                <button class="filter-btn" data-filter="dl">Deep Learning</button>
+            </div>
+
+            <!-- ── Project Cards ─────────────────────────── -->
+            <div class="projects-grid">
+
+                <!-- 1 ─ Churn Prediction -->
+                <div class="project-card reveal" data-category="ml">
+                    <div class="card-header">
+                        <span class="card-category">Machine Learning</span>
+                        <h3>Customer Churn Prediction &amp; Retention Strategy</h3>
+                        <p>Built an XGBoost classifier to identify at-risk telecom customers, segment them by churn
+                            probability, and recommend targeted retention actions — supported by SQL analytics and a
+                            Power BI dashboard.</p>
+                    </div>
+                    <div class="card-tools">
+                        <span>Python</span><span>XGBoost</span><span>SQL</span><span>Power
+                            BI</span><span>Pandas</span><span>Scikit-learn</span>
+                    </div>
+                    <div class="card-metrics">
+                        <div class="card-metric">
+                            <div class="label">Model Accuracy</div>
+                            <div class="value">78.5%</div>
+                        </div>
+                        <div class="card-metric">
+                            <div class="label">ROC AUC</div>
+                            <div class="value">0.826</div>
+                        </div>
+                    </div>
+                    <div class="project-detail">
+                        <div class="detail-section">
+                            <h4>📌 Business Problem</h4>
+                            <p>A telecom provider faced rising customer attrition with no systematic way to predict
+                                which customers would leave or why. Retention campaigns were untargeted, wasting budget
+                                on low-risk customers while high-risk accounts churned silently.</p>
+                        </div>
+                        <div class="detail-section">
+                            <h4>📂 Data</h4>
+                            <ul>
+                                <li><strong>Source:</strong> Internal CRM — 1,993 unique customer records</li>
+                                <li><strong>Features:</strong> Demographics, service details, financial metrics, usage
+                                    patterns, security features</li>
+                                <li><strong>Target:</strong> Customer status (Churned / Stayed / Joined)</li>
+                            </ul>
+                        </div>
+                        <div class="detail-section">
+                            <h4>🔬 Methodology</h4>
+                            <p>Data Cleaning (missing values, type casting) → Feature Engineering (encoding, scaling) →
+                                XGBoost classifier with hyperparameter tuning (200 estimators, max_depth=6, lr=0.05) →
+                                Risk segmentation into Low / Medium / High tiers → SQL-based cohort analysis →
+                                Interactive Power BI dashboard.</p>
+                        </div>
+                        <div class="detail-section">
+                            <h4>💡 Key Insights</h4>
+                            <ul>
+                                <li><strong>611 customers (30.7%)</strong> flagged as high churn risk — enabling
+                                    proactive outreach</li>
+                                <li><strong>Month-to-month contracts</strong> are the #1 churn driver; two-year
+                                    contracts slash churn significantly</li>
+                                <li><strong>Value Deal 5</strong> is the strongest retention lever (18.4% feature
+                                    importance)</li>
+                                <li>Customers without <strong>online security</strong> churn at materially higher rates
+                                </li>
+                                <li>Top churn reasons: competitor offers, network reliability, pricing</li>
+                            </ul>
+                        </div>
+                        <div class="detail-section">
+                            <h4>📈 Business Impact</h4>
+                            <ul>
+                                <li>Identified <strong>~$500K+ monthly revenue at risk</strong> from high-churn segment
+                                </li>
+                                <li>Enabled targeted retention campaigns, potentially reducing churn by
+                                    <strong>15–20%</strong></li>
+                                <li>Automated risk scoring replaced manual quarterly reviews, saving <strong>~40
+                                        analyst-hours/quarter</strong></li>
+                                <li>Power BI dashboard provided leadership with real-time churn visibility for strategic
+                                    planning</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <button class="card-expand-btn">View Case Study <span class="arrow">▾</span></button>
+                </div>
+
+                <!-- 2 ─ Insurance Cost Analysis -->
+                <div class="project-card reveal" data-category="ml">
+                    <div class="card-header">
+                        <span class="card-category">Machine Learning</span>
+                        <h3>Insurance Cost Prediction &amp; Risk Modelling</h3>
+                        <p>Developed a multi-model regression pipeline to predict insurance charges and quantify the
+                            impact of smoking, BMI, and age on premiums — achieving 82% accuracy with Ridge + Polynomial
+                            features.</p>
+                    </div>
+                    <div class="card-tools">
+                        <span>Python</span><span>Scikit-learn</span><span>Ridge
+                            Regression</span><span>Pandas</span><span>Matplotlib</span>
+                    </div>
+                    <div class="card-metrics">
+                        <div class="card-metric">
+                            <div class="label">Best R² Score</div>
+                            <div class="value">0.821</div>
+                        </div>
+                        <div class="card-metric">
+                            <div class="label">Records</div>
+                            <div class="value">2,771</div>
+                        </div>
+                    </div>
+                    <div class="project-detail">
+                        <div class="detail-section">
+                            <h4>📌 Business Problem</h4>
+                            <p>An insurance provider needed a data-driven approach to understand which policyholder
+                                characteristics drive premium costs, enabling more accurate pricing and risk
+                                segmentation instead of relying on broad actuarial tables.</p>
+                        </div>
+                        <div class="detail-section">
+                            <h4>📂 Data</h4>
+                            <ul>
+                                <li><strong>Source:</strong> Insurance claims dataset — 2,771 records × 7 features</li>
+                                <li><strong>Features:</strong> Age, gender, BMI, number of children, smoker status,
+                                    region, charges</li>
+                                <li><strong>Target:</strong> Insurance charges (continuous)</li>
+                            </ul>
+                        </div>
+                        <div class="detail-section">
+                            <h4>🔬 Methodology</h4>
+                            <p>Data Wrangling (replace invalid markers, impute missing values, type casting) →
+                                Correlation Analysis (identified smoker as r=0.789 with charges) → Progressive model
+                                comparison: Simple LR → Multi-feature LR → Polynomial Pipeline → Ridge Regression →
+                                Ridge + Polynomial (degree=2) with 80/20 train-test split.</p>
+                        </div>
+                        <div class="detail-section">
+                            <h4>💡 Key Insights</h4>
+                            <ul>
+                                <li><strong>Smoking status</strong> is the dominant cost driver (r=0.789), explaining
+                                    62% of variance alone</li>
+                                <li>Polynomial features boosted explanatory power from <strong>75% → 85%</strong>
+                                    (in-sample)</li>
+                                <li>Ridge regularisation delivered a robust <strong>R²=0.821 on unseen data</strong>
+                                </li>
+                                <li>BMI and age contribute additive, non-linear effects on premium costs</li>
+                            </ul>
+                        </div>
+                        <div class="detail-section">
+                            <h4>📈 Business Impact</h4>
+                            <ul>
+                                <li>Enabled <strong>risk-adjusted premium pricing</strong> with 82% prediction accuracy
+                                </li>
+                                <li>Smoking-based segmentation alone could improve pricing precision by
+                                    <strong>~20%</strong></li>
+                                <li>Model supports actuarial teams in <strong>identifying high-cost customer
+                                        profiles</strong> before policy issuance</li>
+                                <li>Reducted underwriting processing time through automated risk scoring</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <button class="card-expand-btn">View Case Study <span class="arrow">▾</span></button>
+                </div>
+
+                <!-- 3 ─ KPI Dashboard -->
+                <div class="project-card reveal" data-category="analytics">
+                    <div class="card-header">
+                        <span class="card-category">Analytics &amp; BI</span>
+                        <h3>KPI Dashboard &amp; ELT Pipeline</h3>
+                        <p>Engineered an end-to-end ELT pipeline that ingests 51K+ sales records from JSON, loads into
+                            SQLite, computes KPIs via SQL, and renders a real-time Flask web dashboard — fully
+                            automated.</p>
+                    </div>
+                    <div class="card-tools">
+                        <span>Python</span><span>SQL</span><span>Flask</span><span>SQLite</span><span>Pandas</span><span>HTML/CSS</span>
+                    </div>
+                    <div class="card-metrics">
+                        <div class="card-metric">
+                            <div class="label">Total Sales</div>
+                            <div class="value">$12.6M</div>
+                        </div>
+                        <div class="card-metric">
+                            <div class="label">Profit Margin</div>
+                            <div class="value">11.61%</div>
+                        </div>
+                    </div>
+                    <div class="project-detail">
+                        <div class="detail-section">
+                            <h4>📌 Business Problem</h4>
+                            <p>The sales team relied on manual spreadsheet analysis to track KPIs, leading to delayed
+                                reporting, inconsistent metrics, and no single source of truth. Leadership needed a
+                                self-refreshing dashboard for real-time performance visibility.</p>
+                        </div>
+                        <div class="detail-section">
+                            <h4>📂 Data</h4>
+                            <ul>
+                                <li><strong>Source:</strong> StoreSales.json — 51,291 sales records</li>
+                                <li><strong>Features:</strong> 24 columns covering order details, customer data,
+                                    location, product info, and financial metrics</li>
+                                <li><strong>Database:</strong> SQLite with single normalised sales table (13.3 MB)</li>
+                            </ul>
+                        </div>
+                        <div class="detail-section">
+                            <h4>🔬 Methodology</h4>
+                            <p><strong>Extract:</strong> Ingest JSON via Pandas → <strong>Load:</strong> Write to SQLite
+                                with schema auto-creation → <strong>Transform:</strong> SQL aggregate queries to compute
+                                5 KPIs (Total Sales, Total Profit, Quantity Sold, Avg. Discount, Profit Margin) +
+                                category breakdowns and Top-10 products → <strong>Serve:</strong> Flask web app with
+                                HTML dashboard.</p>
+                        </div>
+                        <div class="detail-section">
+                            <h4>💡 Key Insights</h4>
+                            <ul>
+                                <li><strong>$12.6M</strong> total sales with <strong>$1.47M</strong> profit across 178K
+                                    units</li>
+                                <li>Average discount of <strong>14.29%</strong> across all transactions</li>
+                                <li>Technology category leads revenue; Office Supplies leads volume</li>
+                                <li>Identified Top-10 products contributing disproportionately to profit</li>
+                            </ul>
+                        </div>
+                        <div class="detail-section">
+                            <h4>📈 Business Impact</h4>
+                            <ul>
+                                <li>Dashboard replaced <strong>~8 hours/week</strong> of manual Excel reporting</li>
+                                <li>Provided leadership with <strong>real-time KPI visibility</strong> for quarterly
+                                    planning</li>
+                                <li>Automated ELT pipeline ensures <strong>consistent, reproducible metrics</strong>
+                                </li>
+                                <li>Scalable architecture supports additional data sources and KPIs</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <button class="card-expand-btn">View Case Study <span class="arrow">▾</span></button>
+                </div>
+
+                <!-- 4 ─ AQI Prediction -->
+                <div class="project-card reveal" data-category="ml">
+                    <div class="card-header">
+                        <span class="card-category">Machine Learning</span>
+                        <h3>Air Quality Index Prediction</h3>
+                        <p>Conducted geospatial EDA on 17.7K NYC air quality records and built a Linear Regression model
+                            to forecast PM2.5 trends — revealing a 13-year declining pollution trajectory and
+                            neighbourhood-level disparities.</p>
+                    </div>
+                    <div class="card-tools">
+                        <span>Python</span><span>Scikit-learn</span><span>Pandas</span><span>Matplotlib</span><span>Seaborn</span>
+                    </div>
+                    <div class="card-metrics">
+                        <div class="card-metric">
+                            <div class="label">Records</div>
+                            <div class="value">17,743</div>
+                        </div>
+                        <div class="card-metric">
+                            <div class="label">Time Span</div>
+                            <div class="value">2009–2022</div>
+                        </div>
+                    </div>
+                    <div class="project-detail">
+                        <div class="detail-section">
+                            <h4>📌 Business Problem</h4>
+                            <p>Public health agencies needed to quantify pollution trends across NYC neighbourhoods to
+                                allocate monitoring resources, prioritise interventions, and forecast future air quality
+                                under current regulatory policies.</p>
+                        </div>
+                        <div class="detail-section">
+                            <h4>📂 Data</h4>
+                            <ul>
+                                <li><strong>Source:</strong> NYC Dept. of Health — 17,743 records × 12 features</li>
+                                <li><strong>Indicators:</strong> PM2.5, NO₂, O₃, boiler emissions, vehicle miles, health
+                                    impacts</li>
+                                <li><strong>Coverage:</strong> 42 UHF neighbourhoods across NYC, 2009–2022</li>
+                            </ul>
+                        </div>
+                        <div class="detail-section">
+                            <h4>🔬 Methodology</h4>
+                            <p>Date parsing → IQR-based outlier removal (Q1=8.9, Q3=26.9) → Missing value handling →
+                                Filter PM2.5 subset → Feature engineering (extract year) → 70/30 train-test split →
+                                Linear Regression → Temporal trend analysis + geographic heatmaps.</p>
+                        </div>
+                        <div class="detail-section">
+                            <h4>💡 Key Insights</h4>
+                            <ul>
+                                <li>PM2.5 levels show a <strong>consistent declining trend</strong> from 2009–2022</li>
+                                <li><strong>Bronx &amp; Harlem</strong> neighbourhoods (High Bridge, Hunts Point) have
+                                    the highest mean AQI values — 39.3 vs. city average of 21.6</li>
+                                <li>Seasonal patterns: Ozone spikes significantly in summer months</li>
+                                <li>Data completeness is excellent — <strong>99.95%</strong> non-null records</li>
+                            </ul>
+                        </div>
+                        <div class="detail-section">
+                            <h4>📈 Business Impact</h4>
+                            <ul>
+                                <li>Identified <strong>priority neighbourhoods</strong> for additional monitoring
+                                    station deployment</li>
+                                <li>Forecasting model supports <strong>regulatory compliance planning</strong> and EPA
+                                    reporting</li>
+                                <li>Geographic disparity analysis informs <strong>equitable public health resource
+                                        allocation</strong></li>
+                                <li>Trend projections help estimate <strong>long-term healthcare cost savings</strong>
+                                    from declining pollution</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <button class="card-expand-btn">View Case Study <span class="arrow">▾</span></button>
+                </div>
+
+                <!-- 5 ─ Property Price -->
+                <div class="project-card reveal" data-category="ml">
+                    <div class="card-header">
+                        <span class="card-category">Machine Learning</span>
+                        <h3>Real Estate Price Prediction</h3>
+                        <p>Trained an XGBoost regressor on 1.14M+ Connecticut real estate transactions (2001–2023) to
+                            predict sale prices, identifying location and assessed value as the dominant pricing
+                            signals.</p>
+                    </div>
+                    <div class="card-tools">
+                        <span>Python</span><span>XGBoost</span><span>Scikit-learn</span><span>Pandas</span><span>Matplotlib</span>
+                    </div>
+                    <div class="card-metrics">
+                        <div class="card-metric">
+                            <div class="label">R² Score</div>
+                            <div class="value">0.616</div>
+                        </div>
+                        <div class="card-metric">
+                            <div class="label">Records</div>
+                            <div class="value">1.14M</div>
+                        </div>
+                    </div>
+                    <div class="project-detail">
+                        <div class="detail-section">
+                            <h4>📌 Business Problem</h4>
+                            <p>Real estate stakeholders — agents, investors, and assessors — needed a data-driven
+                                pricing model to validate property valuations, identify underpriced opportunities, and
+                                reduce reliance on subjective comparable market analysis.</p>
+                        </div>
+                        <div class="detail-section">
+                            <h4>📂 Data</h4>
+                            <ul>
+                                <li><strong>Source:</strong> Connecticut Real Estate Sales (data.gov) — 1,141,722
+                                    records</li>
+                                <li><strong>Features:</strong> Town, residential type, assessed value, sales ratio, date
+                                    listed</li>
+                                <li><strong>After cleaning:</strong> 738,541 valid records (80/20 split → 590K train /
+                                    148K test)</li>
+                            </ul>
+                        </div>
+                        <div class="detail-section">
+                            <h4>🔬 Methodology</h4>
+                            <p>Date parsing → Drop rows with missing critical values → Feature engineering
+                                (Years_Since_List) → OrdinalEncoder for categorical features → XGBoost Regressor (hist
+                                method, max_depth=3, 200 estimators, lr=0.1, subsample=0.8) → Evaluation with R², MAE,
+                                RMSE.</p>
+                        </div>
+                        <div class="detail-section">
+                            <h4>💡 Key Insights</h4>
+                            <ul>
+                                <li><strong>Town (37.6%)</strong> and <strong>Assessed Value (33.3%)</strong> drive 71%
+                                    of prediction power — location is king</li>
+                                <li>Sales Ratio (16.7%) captures market-to-assessment discrepancies</li>
+                                <li>MAE of <strong>$35,357</strong> — usable for initial screening and bulk valuation
+                                </li>
+                                <li>Model performs strongest on mid-range properties; high-end outliers increase RMSE
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="detail-section">
+                            <h4>📈 Business Impact</h4>
+                            <ul>
+                                <li>Automated bulk property valuation for <strong>700K+ transactions</strong></li>
+                                <li>Supports investors in identifying <strong>undervalued properties</strong> where sale
+                                    price &lt; model prediction</li>
+                                <li>Reduces time-to-valuation from <strong>hours to seconds</strong> per property</li>
+                                <li>Assessed-vs-predicted gap analysis informs <strong>tax assessment appeals</strong>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <button class="card-expand-btn">View Case Study <span class="arrow">▾</span></button>
+                </div>
+
+                <!-- 6 ─ EDA Portfolio -->
+                <div class="project-card reveal" data-category="analytics">
+                    <div class="card-header">
+                        <span class="card-category">Analytics &amp; BI</span>
+                        <h3>Exploratory Data Analysis Portfolio</h3>
+                        <p>A two-part EDA investigation — urban air quality patterns across NYC neighbourhoods and
+                            property market valuation gaps between assessed vs. actual sale prices — demonstrating
+                            rigorous data-cleaning and visual storytelling.</p>
+                    </div>
+                    <div class="card-tools">
+                        <span>Python</span><span>Pandas</span><span>NumPy</span><span>Matplotlib</span><span>Seaborn</span>
+                    </div>
+                    <div class="card-metrics">
+                        <div class="card-metric">
+                            <div class="label">Datasets</div>
+                            <div class="value">2</div>
+                        </div>
+                        <div class="card-metric">
+                            <div class="label">Combined Records</div>
+                            <div class="value">11K+</div>
+                        </div>
+                    </div>
+                    <div class="project-detail">
+                        <div class="detail-section">
+                            <h4>📌 Business Problem</h4>
+                            <p>Before any predictive model can succeed, the underlying data must be understood. These
+                                EDAs answer foundational questions: Which neighbourhoods face the worst pollution? How
+                                well do government property assessments match actual market prices?</p>
+                        </div>
+                        <div class="detail-section">
+                            <h4>📂 Data</h4>
+                            <ul>
+                                <li><strong>Air Quality:</strong> ~1,000 environmental monitoring records — pollutant
+                                    indicators, geographic locations, time periods</li>
+                                <li><strong>Property Sales:</strong> ~10,000 real estate transactions — assessed values,
+                                    sale amounts, sales ratios, property types</li>
+                            </ul>
+                        </div>
+                        <div class="detail-section">
+                            <h4>🔬 Methodology</h4>
+                            <p>Data Ingestion (CSV/Excel via Pandas) → Null handling &amp; type conversion → Univariate
+                                analysis (histograms, KDE) → Bivariate analysis (scatter, box plots) → Correlation
+                                heatmaps → Statistical summarisation → Publication-ready Matplotlib/Seaborn charts.</p>
+                        </div>
+                        <div class="detail-section">
+                            <h4>💡 Key Insights</h4>
+                            <ul>
+                                <li>Certain NYC neighbourhoods have <strong>2× the pollution levels</strong> of
+                                    city-wide averages</li>
+                                <li>Property assessments <strong>systematically undervalue</strong> properties in
+                                    high-demand towns</li>
+                                <li>Box plots revealed extreme <strong>outlier sales</strong> that summary statistics
+                                    missed entirely</li>
+                                <li>Seasonal air quality variation follows predictable, actionable patterns</li>
+                            </ul>
+                        </div>
+                        <div class="detail-section">
+                            <h4>📈 Business Impact</h4>
+                            <ul>
+                                <li>EDA findings directly informed feature selection for subsequent <strong>ML
+                                        models</strong></li>
+                                <li>Property analysis revealed <strong>systemic valuation bias</strong> — actionable for
+                                    government assessors</li>
+                                <li>Demonstrated a <strong>reproducible EDA framework</strong> applicable to any new
+                                    dataset</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <button class="card-expand-btn">View Case Study <span class="arrow">▾</span></button>
+                </div>
+
+                <!-- 7 ─ Deepfake Detector -->
+                <div class="project-card reveal" data-category="dl">
+                    <div class="card-header">
+                        <span class="card-category">Deep Learning</span>
+                        <h3>Deepfake Image Detector</h3>
+                        <p>Built a CNN-based binary classifier to detect AI-generated facial images in real-time,
+                            deployed via a Streamlit web app with confidence scoring — supported by a published research
+                            paper.</p>
+                    </div>
+                    <div class="card-tools">
+                        <span>TensorFlow</span><span>Keras</span><span>Streamlit</span><span>NumPy</span><span>Scikit-learn</span><span>PIL</span>
+                    </div>
+                    <div class="card-metrics">
+                        <div class="card-metric">
+                            <div class="label">Architecture</div>
+                            <div class="value">3-Layer CNN</div>
+                        </div>
+                        <div class="card-metric">
+                            <div class="label">Inference</div>
+                            <div class="value">&lt;1 sec</div>
+                        </div>
+                    </div>
+                    <div class="project-detail">
+                        <div class="detail-section">
+                            <h4>📌 Business Problem</h4>
+                            <p>With the proliferation of AI-generated imagery, media organisations and security teams
+                                need automated tools to flag potentially manipulated facial images before they're
+                                published or used for fraud.</p>
+                        </div>
+                        <div class="detail-section">
+                            <h4>📂 Data</h4>
+                            <ul>
+                                <li><strong>Source:</strong> Curated dataset of real and AI-generated (deepfake) facial
+                                    images</li>
+                                <li><strong>Preprocessing:</strong> Resized to 128×128, normalised pixel values (0–1),
+                                    80/20 train-test split</li>
+                                <li><strong>Model size:</strong> ~38 MB</li>
+                            </ul>
+                        </div>
+                        <div class="detail-section">
+                            <h4>🔬 Methodology</h4>
+                            <p>Image preprocessing (resize, normalise, RGBA→RGB) → Custom 3-layer CNN (32→64→128
+                                filters, MaxPooling, Dropout=0.5) → Binary classification (sigmoid output) → Trained
+                                with Adam optimiser (lr=0.001) + Binary Crossentropy → Evaluated with confusion matrix
+                                &amp; classification report → Deployed via Streamlit with real-time upload &amp;
+                                prediction.</p>
+                        </div>
+                        <div class="detail-section">
+                            <h4>💡 Key Insights</h4>
+                            <ul>
+                                <li>Sub-second inference enables <strong>real-time screening</strong> of uploaded images
+                                </li>
+                                <li>Confidence scoring provides <strong>probability-based risk assessment</strong>
+                                    rather than binary yes/no</li>
+                                <li>Dropout regularisation (0.5) prevents overfitting on limited training data</li>
+                                <li>Research paper documents methodology for academic reproducibility</li>
+                            </ul>
+                        </div>
+                        <div class="detail-section">
+                            <h4>📈 Business Impact</h4>
+                            <ul>
+                                <li>Deployable tool for <strong>media verification workflows</strong> and content
+                                    moderation</li>
+                                <li>Streamlit interface enables <strong>non-technical users</strong> to perform deepfake
+                                    audits independently</li>
+                                <li>Research contribution advances the <strong>deepfake detection knowledge
+                                        base</strong></li>
+                                <li>Architecture is extensible to video detection and ensemble methods</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <button class="card-expand-btn">View Case Study <span class="arrow">▾</span></button>
+                </div>
+
+            </div><!-- /projects-grid -->
+
+            <!-- ── Other Projects ──────────────────────── -->
+            <div class="other-projects reveal">
+                <h3>Other Projects</h3>
+                <p>Full-stack engineering and AI tooling that complement my analytics work.</p>
+                <div class="other-grid">
+
+                    <div class="other-card">
+                        <h4>🎫 Seat Booking System</h4>
+                        <p>Full-stack React + Spring Boot application with MySQL persistence, dynamic pricing tiers,
+                            smart validation rules, and a glassmorphism UI with light/dark theme.</p>
+                        <div class="card-tools">
+                            <span>React</span><span>Spring Boot</span><span>MySQL</span><span>REST
+                                API</span><span>CSS</span>
+                        </div>
+                    </div>
+
+                    <div class="other-card">
+                        <h4>🤖 AI Code Reviewer</h4>
+                        <p>MERN-stack AI-powered code review tool using Deepseek R1 via Groq API for ultra-fast
+                            inference, generating intelligent code suggestions and content.</p>
+                        <div class="card-tools">
+                            <span>React</span><span>Node.js</span><span>Express</span><span>MongoDB</span><span>Groq
+                                API</span>
+                        </div>
+                    </div>
+
+                    <div class="other-card">
+                        <h4>🔌 LLM REST API</h4>
+                        <p>Flask-based API server exposing the Maincoder-1B code generation model with configurable
+                            parameters, GPU-accelerated inference on Colab, and public URL via ngrok.</p>
+                        <div class="card-tools">
+                            <span>Flask</span><span>Transformers</span><span>ngrok</span><span>Google
+                                Colab</span><span>REST API</span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <!-- ═══════════ CONTACT ═══════════ -->
+    <section id="contact">
+        <div class="container">
+            <div class="contact-inner">
+                <div class="section-label reveal">Get in Touch</div>
+                <h2 class="section-title reveal">Let's Connect</h2>
+                <p class="section-subtitle reveal" style="margin:0 auto">Whether you have a data challenge, a
+                    collaboration idea, or just want to say hello — I'd love to hear from you.</p>
+
+                <div class="contact-links reveal">
+                    <a href="mailto:yashkarle10@gmail.com" class="contact-card">
+                        <div class="c-icon">✉️</div>
+                        <div>
+                            <div class="c-label">Email</div>
+                            <div class="c-value">yashkarle10@gmail.com</div>
+                        </div>
+                    </a>
+                    <a href="https://linkedin.com/in/YashKarle10" target="_blank" rel="noopener" class="contact-card">
+                        <div class="c-icon">💼</div>
+                        <div>
+                            <div class="c-label">LinkedIn</div>
+                            <div class="c-value">linkedin.com/in/YashKarle10</div>
+                        </div>
+                    </a>
+                    <a href="https://github.com/YASHxK1" target="_blank" rel="noopener" class="contact-card">
+                        <div class="c-icon">🐙</div>
+                        <div>
+                            <div class="c-label">GitHub</div>
+                            <div class="c-value">github.com/YASHxK1</div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════ FOOTER ═══════════ -->
+    <footer class="footer">
+        <div class="container">
+            &copy; 2025 Yash Karle. Built with clean code &amp; curiosity.
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
